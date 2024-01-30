@@ -327,3 +327,24 @@ text-align: center;
 /* end of Main Part */
 /* ============================ */
 /* ============================ */
+/* Footer Part */
+.footer-container{
+    background-color: #383b43;
+}
+.footer-titles{
+    padding: 100px 80px;
+    display: flex;
+}
+.footer-titles p{
+    color: #858585;
+    margin-right: 30px;
+}
+.footer-link{
+    color:#858585 ;
+}
+.footer-link:hover{
+    color: #ffffff;
+}
+/* ====================================================================== */
+/* ====================================================================== */
+/* ====================================================================== */

@@ -1,32 +1,39 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-::selection{
+
+::selection {
     background-color: #00b7ff;
     color: #fff;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
+
 /* Header Beginning */
-.header-background{
+.header-background {
     width: 100%;
     background-image: url('../img/bokeh_car_lights_bg_dark.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
-.top-menu{
+
+.top-menu {
     display: flex;
     justify-content: center;
 }
-.ul-menu{
+
+.ul-menu {
     display: flex;
 }
-.menu-wrapper{
+
+.menu-wrapper {
     width: 92%;
     height: auto;
     margin-top: 40px;
@@ -34,62 +41,150 @@ ul{
     justify-content: space-between;
     align-items: center;
 }
-.logo-title a{
+
+.logo-title a {
     color: aliceblue;
     transition: all .5s ease-in-out;
 }
-.logo-title a:hover{
+
+.logo-title a:hover {
     color: #00b7ff;
 }
-.menu-element{
+
+.menu-element {
     margin-left: 40px;
 }
-.menu-element:not(.sign-up){
+
+.menu-element:not(.sign-up) {
     color: rgb(141, 141, 141);
-    transition:all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
-.sign-up{
+
+.sign-up {
     background-color: #00b7ff;
     padding: 12px 22px;
     border-radius: 50px 50px 50px 50px;
     color: aliceblue;
-    transition:all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
-.menu-element:not(.sign-up):hover{
+
+.menu-element:not(.sign-up):hover {
     color: aliceblue;
 }
-.sign-up:hover{
+
+.sign-up:hover {
     color: #00b7ff;
     background-color: aliceblue;
     transition: all .5s ease-out;
 }
-.banner-content{
+
+.banner-content {
     text-align: center;
     padding-top: 150px;
     padding-bottom: 200px;
 }
-.banner-title{
+
+.banner-title {
     color: aliceblue;
     font-size: 3.5em;
     font-family: 'Times New Roman', Times, serif;
 }
-.banner-text{
+
+.banner-text {
     font-size: 1.5em;
     color: aliceblue;
     font-family: 'Times New Roman', Times, serif;
 }
-.banner-buttom{
+
+.banner-buttom {
     background-color: #00b7ff;
     color: aliceblue;
     padding: 20px;
     border: none;
     border-radius: 40px 40px 40px 40px;
     cursor: pointer;
-    transition:all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
-.banner-buttom:hover{
+
+.banner-buttom:hover {
     background-color: aliceblue;
     color: #00b7ff;
 }
 /* End of Header Part */
 /* =================================== */
+/* =================================== */
+/* Main */
+/* First-Section */
+.section-1-background {
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+    border-bottom: .5px solid rgb(95, 95, 95);
+    border-top: .5px solid rgb(95, 95, 95);
+}
+
+.s1-title {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.s1-main-title {
+    font-size: 3em;
+    color: #474747;
+    margin-bottom: .3em;
+}
+
+.s1-sub-title {
+    font-size: 1.5em;
+    color: #858585;
+}
+
+.s1-main-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.s1-main {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s1-box-1 {
+    margin-top: 70px;
+    text-align: center;
+    background-color: #fff;
+    padding: 3em 3em;
+    margin-bottom: 100px;
+    border: .5px solid rgb(95, 95, 95);
+}
+
+.s1-box-2 {
+    margin-top: 70px;
+    text-align: center;
+    background-color: #fff;
+    padding: 3em 3em;
+    margin-bottom: 100px;
+    border: .5px solid rgb(95, 95, 95);
+}
+
+.s1-box-3 {
+    margin-top: 70px;
+    text-align: center;
+    background-color: #fff;
+    padding: 3em 3em;
+    margin-bottom: 100px;
+    border: .5px solid rgb(95, 95, 95);
+}
+
+.box1-img {
+    width: 120px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.box1-title {
+    color: #5c5c5c;
+    padding: 15px 0;
+}
+
+/* ================================ */

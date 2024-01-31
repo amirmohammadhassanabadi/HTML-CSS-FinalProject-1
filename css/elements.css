@@ -641,3 +641,29 @@ input[type="radio"]{
 }
 /* End of Section 8 */
 /* ================================= */
+/* Section 9 */
+#section-9 h3{
+    margin: 2em 0;
+}
+#section-9 h4{
+    margin-bottom: 1em;
+}
+.image-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.top-image{
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.sub-image{
+    width: calc( 33% - 3px );
+    height: auto;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+/* End of Session 9 */
+/* ========================== */

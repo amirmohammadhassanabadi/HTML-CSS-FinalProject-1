@@ -712,3 +712,73 @@ input[type="radio"]{
 }
 /* Session10 */
 /* ========================== */
+/* Footer Part */
+.footer-bg{
+    background-color: #383b43;
+}
+.footer-container{
+    width: 85%;
+    margin: 0 auto;
+}
+.footer-header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #858585;
+}
+.col{
+    padding: 6em 0 4em;
+    width: 25%;
+}
+.list-title{
+    font-size: 1.35em;
+    color: #FFF;
+}
+.list-title{
+    padding-bottom: 25px;
+}
+.col-1-li{
+    padding-bottom: 10px;
+    list-style: none;
+}
+.col-1-a{
+    color: #cdced0;
+    transition: all .8s ease-out;
+}
+.col-1-a:hover{
+    color: #00b7ff;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.footer-left{
+    display: flex;
+}
+.footer-right{
+    display: flex;
+}
+.footer-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    padding-left: 10px;
+}
+.footer-right a{
+    border-radius: 100%;
+}
+.par{
+color: #858585;
+margin-right: 10px;
+}
+.copyright-content{
+    color: #858585;
+    transition: all .8s ease-out;
+}
+.copyright-content:hover{
+    color: #FFF;
+}
+/* Footer Part */
+/* ========================== */
+/* ========================== */

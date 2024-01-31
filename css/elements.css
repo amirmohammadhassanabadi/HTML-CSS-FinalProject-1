@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+::selection{
+    background-color: #00b7ff;
+    color: #FFF;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #474747;
+}
+h3 {
+    font-size: 1.35em;
+}
+h4{
+    font-size: 1.1em;
+}
+/* Header Part */
+.header-background{
+    background-image: url(../img/bokeh_car_lights_bg_dark.jpg);
+    background-position: center;
+    background-size: cover;
+    border-bottom: 3px solid #00b7ff;
+}
+.top-menu{
+    display: flex;
+    justify-content: center;
+}
+.ul-menu{
+    display: flex;
+}
+.menu-wrapper{
+    width: 94%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-title a{
+    color: aliceblue;
+    transition: all .5s ease-in-out;
+}
+.logo-title a:hover{
+    color: #00b7ff;
+}
+.menu-element{
+    margin-left: 40px;
+}
+.menu-element:not(.sign-up){
+    color: rgb(141, 141, 141);
+    transition:all 0.5s ease-in-out;
+}
+.sign-up{
+    background-color: #00b7ff;
+    padding: 12px 22px;
+    border-radius: 50px 50px 50px 50px;
+    color: aliceblue;
+    transition:all 0.5s ease-in-out;
+}
+.menu-element:not(.sign-up):hover{
+    color: aliceblue;
+}
+.sign-up:hover{
+    color: #00b7ff;
+    background-color: aliceblue;
+    transition: all .5s ease-out;
+}
+/* End of Header Part */
+/* =============================== */

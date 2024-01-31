@@ -66,3 +66,38 @@ ul{
 }
 /* End of Header Part */
 /* =============================== */
+/* Main part */
+.main-header{
+    padding: 6em 0 4em 0;
+    text-align: center;
+}
+.main-title{
+    font-size: 3em;
+    color: #252525;
+}
+.sub-title{
+    font-size: 1.5em;
+    color: #858585;
+}
+.main-image{
+    width: 85%;
+    margin: 0 auto;
+}
+.image{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.main-text{
+    width: 85%;
+    margin: 2em auto;
+    margin-bottom: 6em;
+}
+.par{
+    text-align: justify;
+    color: #444;
+    font-size: large;
+    margin-bottom: 2em;
+}
+/* End of Main Part */
+/* =============================== */

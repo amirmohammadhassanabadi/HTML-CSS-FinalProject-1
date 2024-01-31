@@ -667,3 +667,48 @@ input[type="radio"]{
 }
 /* End of Session 9 */
 /* ========================== */
+/* Session10 */
+#section-10 h4{
+    margin-bottom: 2em;
+}
+.s10-p1-wrapper{
+    margin-bottom: 5em;
+}
+.s10-p1-left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+.image-left{
+    width: 15%;
+    height: auto;
+    border-radius: 2px;
+}
+.s10-p1-left p{
+    width: 83%;
+    line-height: 1.2em;
+    font-size: 1.2em;
+    color: #585858;
+    text-align: justify;
+}
+/* ------------------------------------ */
+.s10-p1-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.image-right{
+    width: 15%;
+    height: auto;
+    border-radius: 2px;
+}
+.s10-p1-right p{
+    width: 83%;
+    line-height: 1.2em;
+    font-size: 1.2em;
+    color: #585858;
+    text-align: justify;
+}
+/* Session10 */
+/* ========================== */
